@@ -2,8 +2,12 @@
 .overlay{
       filter:brightness(50%);
   }
-@media only screen and  (max-width:576px) {
+@media only screen and  (max-width:680px) {
     .responsive-img{
         width:100%;
+    }
+    .small-heading{
+        display: flex;
+        flex-direction: column;
     }
 }
